@@ -9,12 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
-
-&sl {
-    release-after-ms = <500>;
-    /delete-property/ quick-release;
-};
-
 / {
         
     keymap {
@@ -30,29 +24,29 @@
         // Numbers and punctuations each on separate row
         num_punc_layer {
             bindings = <
-                &kp EXCL      &kp AT     &kp HASH
-                &hl LCTRL N1  &kp N2     &kp N3
+                &kp N1   &kp N2  &kp N3
+                &kp N4   &kp N5  &kp N6
                 >;
         };
 
         nav_sys_layer {
             bindings = <
-                &ht LGUI F9   &kp F10  &kp F11
-                &ht LCTRL F5  &kp F6   &kp F7
+                &kp N1   &kp N2  &kp N3
+                &kp N4   &kp N5  &kp N6
                 >;
         };
 
         nav_numpad_layer {
             bindings = <
-                &none         &kp HOME     &kp UP
-                &kp END       &kp LEFT     &kp DOWN
+                &kp N1   &kp N2  &kp N3
+                &kp N4   &kp N5  &kp N6
                 >;
         };
 
         bt_layer {
             bindings = <
-                &none         &none         &btcl
-                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+                &kp N1   &kp N2  &kp N3
+                &kp N4   &kp N5  &kp N6
                 >;
         };
 
