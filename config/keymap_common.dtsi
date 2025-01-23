@@ -172,47 +172,37 @@
 
         default_layer {
             bindings = <
-                &hl LGUI Q   &kp W  &kp E  &kp R      &kp T        &kp Y            &kp U  &kp I      &kp O    &ht RGUI P
-                &hl LCTRL A  &kp S  &kp D  &kp F      &kp G        &kp H            &kp J  &kp K      &kp L    &ht RCTRL SEMI
-                &pk LSHFT Z  &kp X  &kp C  &kp V      &lt 3 B      &kp N            &kp M  &kp COMMA  &kp DOT  &pk RSHFT FSLH
-                                           &lh 2 TAB  &bsde        &hs LALT SPACE   &td1
+                &kp Q   &kp W  &kp E
+                &kp A   &kp S  &kp D
                 >;
         };
 
         // Numbers and punctuations each on separate row
         num_punc_layer {
             bindings = <
-                &kp EXCL      &kp AT     &kp HASH  &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR
-                &hl LCTRL N1  &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8    &kp N9    &ht RCTRL N0
-                &kp LSHFT     AS(GRAVE)  AS(BSLH)  AS(LBKT)   AS(RBKT)       AS(EQUAL)  AS(MINUS)  &trans    &trans    &trans
-                                                   &moxy 4 0  &trans         &trans     &tog 1
+                &kp EXCL      &kp AT     &kp HASH
+                &hl LCTRL N1  &kp N2     &kp N3
                 >;
         };
 
         nav_sys_layer {
             bindings = <
-                &ht LGUI F9   &kp F10  &kp F11  &kp F12  &kp PSCRN      &kp HOME  &kp PG_DN     &kp PG_UP     &kp END     &ht LGUI C_AC_BACK
-                &ht LCTRL F5  &kp F6   &kp F7   &kp F8   &kp INS        &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT   &ht LCTRL C_AC_FORWARD
-                &ht LSHFT F1  &kp F2   &kp F3   &kp F4   &to 3          &td_mcf   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp LSHFT
-                                                &none    &trans         &trans    &none
+                &ht LGUI F9   &kp F10  &kp F11
+                &ht LCTRL F5  &kp F6   &kp F7
                 >;
         };
 
         nav_numpad_layer {
             bindings = <
-                &none         &kp HOME     &kp UP        &kp PG_UP     &none          &kp FSLH  &kp N7  &kp N8  &kp N9  &kp MINUS
-                &kp END       &kp LEFT     &kp DOWN      &kp RIGHT     &kp PG_DN      &kp STAR  &kp N4  &kp N5  &kp N6  &kp PLUS
-                &kp C_BRI_UP  &kp C_BRI_DN &kp C_VOL_UP  &kp C_VOL_DN  &tog 3         &kp N0    &kp N1  &kp N2  &kp N3  &kp DOT
-                                                         &none         &trans         &kp BSPC  &none
+                &none         &kp HOME     &kp UP
+                &kp END       &kp LEFT     &kp DOWN
                 >;
         };
 
         bt_layer {
             bindings = <
-                &none         &none         &btcl         &none         &none             &none   &none   &none  &none  &none
-                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none   &none   &none  &none  &none
-                &none         &none         &none         &none         &none             &none   &none   &none  &none  &none
-                                                          &none         &none             &none   &none
+                &none         &none         &btcl
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
                 >;
         };
 
