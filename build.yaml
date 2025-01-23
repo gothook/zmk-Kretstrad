@@ -30,5 +30,5 @@ include:
 # - board: seeeduino_xiao_ble
 #   shield: kretstrad_left
 
- - board: seeeduino_xiao_ble
-   shield: kretstrad_right
+- board: seeeduino_xiao_ble
+  shield: kretstrad_right
